@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    left: 340px; */
+    background-color: rgb(28, 22, 22);
+    width: 500px;
+    border-radius: 20px 5px;
+    box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+  }
+  input[type="text"] {
+    box-shadow: 0px 0px 5px 0px rgb(206, 37, 215);
+    border-radius: 5px 25px;
+    padding: 10px;
+    border: 1px groove hotpink;
+    margin: 7px;
+    background-color: grey;
+  }
+  .button {
+    position: absolute;
+    top: 126px;
+    left: 15px;
+    transition: transform 0.2s;
+  }
+  .button:hover {
+    transform: scale(1.1);
+  }
+  .Add {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bolder;
+    height: 30px;
+    border-radius: 20px 3px;
+    padding: 5px;
+    border: 1px groove;
+    box-shadow: 0px 0px 7px 0px greenyellow;
+    background-color: grey;
+    color: rgb(34, 30, 30);
+  }
+
+  body {
+    background-color: #000000;
+  }
